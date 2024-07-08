@@ -1,0 +1,56 @@
+[
+  {
+    "model": "dogs.bread",
+    "pk": 1,
+    "fields": {
+      "name": "собака 1",
+      "description": "Симпотяга"
+    }
+  },
+  {
+    "model": "dogs.bread",
+    "pk": 2,
+    "fields": {
+      "name": "собака 2",
+      "description": "Милашка"
+    }
+  },
+  {
+    "model": "dogs.bread",
+    "pk": 3,
+    "fields": {
+      "name": "собака 3",
+      "description": "Кайфовый"
+    }
+  },
+  {
+    "model": "dogs.dog",
+    "pk": 1,
+    "fields": {
+      "name": "Тузик",
+      "bread": 1,
+      "photo": "dogs/photo/1_Ro9880j.jpg",
+      "date_born": "2024-05-30"
+    }
+  },
+  {
+    "model": "dogs.dog",
+    "pk": 2,
+    "fields": {
+      "name": "Бобик",
+      "bread": 2,
+      "photo": "dogs/photo/2_qSZMZXX.jpg",
+      "date_born": "2024-05-30"
+    }
+  },
+  {
+    "model": "dogs.dog",
+    "pk": 3,
+    "fields": {
+      "name": "шарик",
+      "bread": 3,
+      "photo": "dogs/photo/3_vQ3XIiS.jpg",
+      "date_born": "2024-05-30"
+    }
+  }
+]
